@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                // Define your deployments steps here
+                // Define your deployment steps here
                 // This stage will run on any available executor (master or slaves)
             }
         }
